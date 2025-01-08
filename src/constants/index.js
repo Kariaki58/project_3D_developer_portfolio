@@ -15,14 +15,11 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  nike,
+  poshwears,
+  social,
   threejs,
+  alx
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +43,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Full Stack Developer",
     icon: mobile,
   },
   {
@@ -54,7 +51,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "SEO Ninja",
     icon: creator,
   },
 ];
@@ -116,63 +113,24 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Engineer",
+    company_name: "ALX Africa",
+    icon: alx,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2024 - June 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Database Design and Optimization: Delved deep into crafting efficient database architectures, ensuring peak performance for diverse applications",
+      "C Programming Proficiency: Commanded the intricacies of C programming, empowering me to engineer robust and reliable software solutions.",
+      "Python Expertise with Flask: Leveraged Python and the Flask framework to craft dynamic web applications, including a meticulous Airbnb clone and musicIO a full-stack music platform.",
+      "Data Structures and Algorithms: Developed a keen understanding of data structures and algorithms, enabling elegant solutions to complex problems.",
     ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  }
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but stephen proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -180,7 +138,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like stephen does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -188,7 +146,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After stephen optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -198,58 +156,34 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Social Media Website",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed a static page social media clone, providing a simplified yet functional interface for user interaction and content sharing. Enhanced user customization by enabling adjustable font sizes and a toggle feature for switching between dark and light themes.",
+    tags: [
+      {
+        name: "HTML5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS3",
+        color: "green-text-gradient",
+      }
+    ],
+    image: social,
+    live_link: "https://kariaki-reponsive-social-media.netlify.app/",
+    source_code_link: "https://github.com/Kariaki58/Social_media_Clone",
+  },
+  {
+    name: "Nike WebSite Landing Page",
+    description:
+      "Web application that showcase shoes from nike with interactive user interface",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
         color: "green-text-gradient",
       },
       {
@@ -257,8 +191,35 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: nike,
+    live_link: "https://kariaki-nike-landing-page.netlify.app/",
+    source_code_link: "https://github.com/Kariaki58/Ecommerce_Website",
+  },
+  {
+    name: "PoshWears",
+    description:
+      "A comprehensive e-commerce platform featuring an admin dashboard and role-based authentication. Integrated Paystack for secure payment processing and Implemented a rich text editor for product descriptions and a robust inventory management system.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "expressjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "purple-text-gradient",
+      }
+    ],
+    image: poshwears,
+    live_link: "https://www.poshwears.ng/",
+    source_code_link: "https://github.com/Kariaki58/E-template-client",
   },
 ];
 

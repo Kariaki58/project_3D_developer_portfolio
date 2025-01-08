@@ -25,10 +25,14 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import nike from "./nike-website.png";
+import poshwears from "./poshwears.png";
+import social from "./social-media.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import alx from "./alx.jpeg";
+import live from "./icons8-live-100.png";
 
 export {
   logo,
@@ -59,4 +63,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  alx,
+  nike,
+  poshwears,
+  social,
+  live
 };
