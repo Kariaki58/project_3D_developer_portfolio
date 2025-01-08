@@ -131,23 +131,23 @@ const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but stephen proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+    name: "Anita",
+    designation: "Owner",
+    company: "Ph Skincare",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like stephen does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "I hired Stephen to revamp my e-commerce store, and I couldn't be happier with the results. He integrated all the features I needed, including a streamlined checkout process and a responsive design that works perfectly on all devices.",
+    name: "Franklin",
+    designation: "Owner",
+    company: "Poshwears",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After stephen optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "Build a full stack Airbnb Cloned Project for real estate company, the project was delivered on time and the client was happy with the result",
+    name: "Sandra",
     designation: "CTO",
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
